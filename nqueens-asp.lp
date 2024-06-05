@@ -1,4 +1,4 @@
-queenl(1..n)   .
+queen(1..n)   .
 
 % colocamos como máximo una reina por fila
 1 { placeQueen(I, J) : queen(I) } 1 :- queen(J)  .
